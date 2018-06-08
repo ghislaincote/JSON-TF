@@ -5,6 +5,18 @@ This is the playground for the JSON Task Force.  Seeking to make JSON a first cl
 
 ### Install Node and NPM
 [Node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/get-npm) are required to run tests.
+npm is included with most installations of Node and can be updated with 
+```
+$ npm test
+```
+
+### Package requirements
+[Mocha](https://mochajs.org/) and [Chai](http://www.chaijs.com/) are also required.
+TIf they are not already installed in your Node environment, hey can be imstalled with the following commands:
+```
+$ npm install --global mocha
+$ npm install chai
+```
 
 ### Run Tests
 ```
